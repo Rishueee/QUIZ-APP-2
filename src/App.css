@@ -1,0 +1,114 @@
+body {
+  font-family: sans-serif;
+  background-color: rgb(110, 4, 146);
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  margin-left: 190px;
+  align-items: center;
+  background-color: white;
+  width: 900px;
+  height: 480px;
+}
+
+button {
+  border-radius: 20px;
+  padding: 10px;
+  width: 150px;
+}
+.but {
+  padding: 10px;
+  width: 150px;
+  background-color: rgb(4, 193, 1);
+  position: relative;
+  bottom: 10px;
+}
+.choice {
+  background-color: rgb(30, 161, 241);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 25px;
+}
+.qut {
+  background-color: rgb(255, 12, 12);
+  border-radius: 0px;
+  position: relative;
+  bottom: 20px;
+  border: 0px;
+}
+
+.opt {
+  display: grid;
+  grid-template-rows: auto auto;
+
+  padding: 10px;
+  grid-template-columns: 380px 380px;
+  gap: 15px;
+}
+
+.que {
+  margin-right: 700px;
+}
+.qut {
+  background-color: rgb(255, 12, 12);
+  border-radius: 0px;
+  position: relative;
+  bottom: 20px;
+  border: 0px;
+}
+
+.prev {
+  background-color: rgb(62, 126, 170);
+  border-radius: 0px;
+  position: relative;
+  bottom: 20px;
+  border: 0px;
+}
+
+.nxt {
+  background-color: rgb(2, 139, 2);
+  border-radius: 0px;
+  position: relative;
+  bottom: 20px;
+  border: 0px;
+}
+
+h5 {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.work {
+  display: grid;
+  gap: 20px;
+
+  grid-template-columns: auto auto auto;
+  margin-top: 30px;
+}
+
+.qu {
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+button {
+  border-radius: 20px;
+  padding: 10px;
+  width: 150px;
+  position: relative;
+  top: 40px;
+}
+.but {
+  padding: 10px;
+  width: 150px;
+  background-color: rgb(10, 179, 6);
+  position: relative;
+  bottom: 10px;
+}
